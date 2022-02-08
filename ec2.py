@@ -1,3 +1,4 @@
+# Example for ec2
 import boto3
 import os
 

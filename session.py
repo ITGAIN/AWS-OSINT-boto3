@@ -1,3 +1,5 @@
+# Session example
+
 import boto3
 import os
 

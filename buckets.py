@@ -1,3 +1,5 @@
+# Example for bucket
+
 import boto3
 import os
 

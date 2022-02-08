@@ -1,3 +1,4 @@
+# Example for dynamodb
 import boto3
 import os
 
