@@ -4,9 +4,10 @@ import os
 key = os.environ['aws_key']
 secret = os.environ['aws_secret']
 
-ec2 = boto3.client('ec2',
+kms = boto3.client('kms',
         aws_access_key_id=key,
         aws_secret_access_key=secret)
 
-response = ec2.describe_instances()
+response = kms.list_keys()
+
 print(response)
