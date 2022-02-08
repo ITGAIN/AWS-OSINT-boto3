@@ -1,9 +1,11 @@
 import boto3
 
+key = ""
+secret = ""
+
 s3 = boto3.client('s3',
-        aws_access_key_id="",
-        aws_secret_access_key="",
-        region="")
+        aws_access_key_id=key,
+        aws_secret_access_key=secret)
 
 response = s3.list_buckets()
 
