@@ -1,7 +1,8 @@
 import boto3
+import os
 
-key = ""
-secret = ""
+key = os.environ['aws_key']
+secret = os.environ['aws_secret']
 
 s3 = boto3.client('s3',
         aws_access_key_id=key,
